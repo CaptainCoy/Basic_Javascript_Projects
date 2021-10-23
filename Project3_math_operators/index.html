@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="JS/main.js"></script>
+        <style>
+            body {
+                background-color:cadetblue;
+                color:greenyellow;
+                text-align: center;
+                padding: 69px;
+            }
+
+        button {
+            background-color:navy;
+            color:mediumseagreen;
+        }
+
+        button:hover {
+            background-color: turquoise;
+            color: midnightblue;
+            cursor: pointer;
+        }
+        
+        h3 {
+            color:lightsalmon;
+        }
+
+        p {
+            color:lime;
+        }
+        </style>
+        <title>
+            JS Math Operators Assignment
+        </title>
+    </head>  
+    <body>
+        <div>
+            <h1>Math</h1>
+            <div>
+                <h3>Add</h3>
+                    <div>
+                        <button onclick="addition_function()">2+2</button>
+                        <div>
+                            <p  id="Math"></p>
+                        </div>
+                    </div>
+                <h3>Subtract</h3>
+                    <div>
+                        <button onclick="subtraction_function()">5-2</button>
+                        <div>
+                            <p id="Sub"></p>
+                        </div>
+                    </div>
+                <h3>Multiply</h3>
+                <div>
+                    <button onclick="multiplication_function()">6x8</button>
+                    <div>
+                        <p id="Mult"></p>
+                    </div>
+                </div>
+                <h3>Divide</h3>
+                <div>
+                    <button onclick="division()">48/6</button>
+                    <div>
+                        <p id="Divi"></p>
+                    </div>
+                </div>
+                <div>
+                    <p style=color:gold;>(4+430)*4/4-14</p>
+                    <button onclick="lots_happening()">Calculate</button>
+                    <p id="more"></p>
+                </div>
+            </div>
+            <button onclick="mod_Op()">Click Here</button>
+            <p id="Mod"></p>
+            <div>
+                <h5>let's turn the number 10 negative</h5>
+                <button onclick="neg_Op()">&#9785;</button>
+                <p id="Neg"></p>
+            </div>
+            <div>
+                <button onclick="increase()">++</button>
+                <p id="text"></p>
+            </div>
+        </div>
+    </body>
+</html>
