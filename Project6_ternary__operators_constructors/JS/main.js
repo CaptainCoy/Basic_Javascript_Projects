@@ -38,7 +38,7 @@ var Olive=new Dog("Poodle", "Cream", 3, "good girl");
 var Brenda=new Dog("Poodle", "Brown/ Whiteish Phantom", 1, "Canine Good Citizen");
 var Debbie=new Dog("Poodle", "Black/ Tan Phantom", 1, "Clever Girl");
 var Susan=new Dog("Poodle", "White/ Brown Parti", 1, "Wild Girl");
-function New() {
+function Buddy() {
     document.getElementById("Dood").innerHTML="Olive is a "+Olive_Status;
 }
 
