@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <script src="JS/main.js"></script>
+        <style>
+
+        body {
+            background-color:darkgoldenrod;
+            color:darkblue;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            padding: 15%;
+        }
+
+        button {
+            background-color: rgb(22, 71, 134);
+            color:cyan;
+            height: 50px;
+            width:100px;
+            border-radius: 50%;
+            border-color: darkblue;
+        }
+
+        button:hover {
+            background-color: darkolivegreen;
+            color:khaki;
+            cursor:crosshair            
+        }
+
+        p:hover {
+            color:seagreen;
+            cursor: pointer;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Riders must be at least 52 centimeters tall to ride.</p>
+            <input id="Height" value="52"/>
+            <button onclick="Ride_Function()">Click Here!</button>
+            <p id="Ride"></p>
+        </div>
+        <div>
+            <h1>You must be 18 years old to vote.</h1>
+            <input id="Age" value="18"/>
+            <button onclick="Voter()">Click Here!</button>
+            <p id="Vote"></p>
+        </div>
+        <div>
+            <h1 style="color: rgb(73, 73, 10);">Vehicle</h1>
+            <button onclick="myFunction()">Han Solo</button>
+            <p id="Keywords_and_Constructors"></p>
+        </div>
+        <div>            
+            <button onclick="New()">Who's a good girl?</button>
+            <p id="Dood"></p>
+        </div>
+        <div>
+            <p id="Mas" onclick="Nested_Function()">Click Here!</p>              
+        </div>
+    </body>
+</html>
