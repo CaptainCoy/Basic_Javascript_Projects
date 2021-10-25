@@ -33,12 +33,21 @@ function Dog(Breed, Color, Age, Status) {
     this.Dog_Color=Color;
     this.Dog_Age=Age;
     this.Dog_Status=Status;
-}
-var constructorhere=new Dog("mutt", "red","44","bad dog");  
+}  
 var Olive=new Dog("Poodle", "Cream", 3, "good girl");
 var Brenda=new Dog("Poodle", "Brown/ Whiteish Phantom", 1, "Canine Good Citizen");
 var Debbie=new Dog("Poodle", "Black/ Tan Phantom", 1, "Clever Girl");
 var Susan=new Dog("Poodle", "White/ Brown Parti", 1, "Wild Girl");
 function New() {
-    document.getElementById("New_and_This").innerHTML="Olive is a "+Olive_Status;
+    document.getElementById("Dood").innerHTML="Olive is a "+Olive_Status;
+}
+
+function Nested_Function () {                       // Here is an example of a nested function
+    document.getElementById("Mas").innerHTML=Count();
+    function Count() {
+        var Starting_point=9;
+        function Plus_one() {Starting_point+=1;}
+        Plus_one();
+        return Starting_point;
+    }
 }
