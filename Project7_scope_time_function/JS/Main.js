@@ -8,3 +8,8 @@ function Local_var_Example() {
 }
 Global_var_Example();
 Local_var_Example();
+
+function get_time() {
+const d = new Date();
+document.getElementById("whatsthetime").innerHTML=d;
+}
