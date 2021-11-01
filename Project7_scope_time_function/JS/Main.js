@@ -13,3 +13,12 @@ function get_time() {
 const d = new Date();
 document.getElementById("whatsthetime").innerHTML=d;
 }
+
+function get_hour() {
+    if (new Date().getHours()<12){
+        document.getElementById("Greeting").innerHTML="Good Morning";
+    }
+    if (new Date().getHours()>12){
+        document.getElementById("Greeting").innerHTML="Good Afternoon";
+    }
+}
