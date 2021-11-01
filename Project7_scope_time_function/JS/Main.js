@@ -15,10 +15,27 @@ document.getElementById("whatsthetime").innerHTML=d;
 }
 
 function get_hour() {
-    if (new Date().getHours()<12){
-        document.getElementById("Greeting").innerHTML="Good Morning";
+    var Time=new Date().getHours();
+    var Respond;
+    if(Time<12==Time>0){
+        Respond="Good Morning";
     }
-    if (new Date().getHours()>12){
-        document.getElementById("Greeting").innerHTML="Good Afternoon";
+    else if (Time >=12==Time<18){
+        Respond="Good Afternoon";
     }
+    else{
+        Respond="Good Evening";
+    }
+    document.getElementById("Greeting").innerHTML=Respond;
+}
+
+function Age_Party(){
+    Age=document.getElementById("Age").value;
+    if(Age>=21){
+        Party="Party!";
+    }
+    else{
+        Party="Denied";
+    }
+    document.getElementById("party").innerHTML=Party;
 }

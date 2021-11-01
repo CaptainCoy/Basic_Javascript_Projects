@@ -21,11 +21,16 @@
         button:hover {
             background-color: gold;
             color:saddlebrown;
+            cursor: pointer;            
         }
 
         p {
             color:salmon;
-        }     
+        } 
+        
+        span:hover{
+            cursor: pointer;
+        }
 
     </style>
     <title>7 Scope & Function</title>
@@ -39,6 +44,12 @@
         <div>
             <p onclick="get_hour()"><span style="font-size:100px;">&#128515;</span></p>
             <p id="Greeting"></p>
+        </div>
+        <div>
+            <h1 style="color:palegreen;">How old are you:</h1>
+            <input id="Age" value=""/>
+            <p id="party"></p>
+            <button onclick="Age_Party()">Okay?</button>
         </div>
     </body>
 </html>
