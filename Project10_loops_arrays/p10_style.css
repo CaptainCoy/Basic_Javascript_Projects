@@ -1,0 +1,39 @@
+body {
+    background-color:rgb(4, 29, 27);
+    color:rgb(70, 161, 138);
+    text-align: center;
+    padding: 15%;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: monospace;    
+}
+
+button {
+    padding:15px 25px;
+    text-align: center;
+    background-color: rgb(197, 26, 20);
+    color:rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 0 7px rgb(146, 146, 146);
+}
+
+button:hover {
+    background-color: rgb(255, 86, 80);
+    color:rgb(160, 160, 160);
+    cursor: pointer;
+    box-shadow: 0 6px rgb(146, 146, 146);
+}
+
+button:active {
+    background-color: rgb(9, 255, 0);
+    color:rgb(255, 255, 255);
+    box-shadow: 0 2px rgb(156, 155, 155);
+    transform: translateY(4px);
+}
+
+p {
+    text-align: left;
+    color:darkorange;
+}
